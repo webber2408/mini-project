@@ -4,6 +4,7 @@
 <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/p1.css">
+<link rel="stylesheet" href="css/subcat.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -161,7 +162,7 @@
 <div class="popped" style="display:none;">
     <div class="list-group">
         <div class="pro1" id="p1">
-    <a href="#" class="list-group-item make1"><span id="s0">COURSERA</span>
+    <a href="#" class="list-group-item make1" data-toggle="modal" data-target="#coursera-modal"><span id="s0">COURSERA</span>
         <div class="stars" data-id="1">
           <input type="radio" name="star1" class="startr" value="1" id="star-1" />  
           <input type="radio" name="star1"  class="startr" value="2" id="star-2" /> 
@@ -170,9 +171,34 @@
           <input type="radio" name="star1"  class="startr" value="5" id="star-5" /> 
         </div>
     </a>
+    <!-- **************for coursera ************************* -->
+
+<div class="modal fade" id="coursera-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+      <div class="modal-dialog modal-css-subcat">
+          <div class="loginmodal-container">
+              <div class="btn-topcat">
+                <button class="btn btn-primary button-topcat video">Video</button>
+                <button class="btn btn-success button-topcat about">About</button>
+              </div>
+              <div class="video-subcat">
+                   <iframe width="100%" height="60%" src="https://www.youtube.com/embed/mnMm8RcM4M8" frameborder="0" allowfullscreen></iframe>
+              </div>
+              <div class="info-subcat" style="display:none;">
+               <p>
+Coursera is a venture-backed, education-focused technology company founded by Stanford professors Andrew Ng and Daphne Koller that offers online courses and is based in Mountain View, CA. Coursera works with universities and other organizations to offer online courses, specializations, and degrees in a variety of subjects, such as engineering, humanities, medicine, biology, social sciences, mathematics, business, computer science, digital marketing, data science, and others. As of February 2017, Coursera had more than 24 million registered users and more than 2,000 courses.
+               </p>
+              </div>
+        </div>
+      </div>
+</div>
+<!-- **************for coursera ************************* -->
+
+
+
+
     </div>
     <div class="pro1" id="p2" >
-    <a href="#" class="list-group-item make1"><span id="s1">UDEMY</span>
+    <a href="#" class="list-group-item make1" data-toggle="modal" data-target="#udemy-modal"><span id="s1">UDEMY</span>
             <div class="stars" data-id="2">
           <input type="radio" name="star2" class="startr" value="1" id="star-1" />  
           <input type="radio" name="star2"  class="startr" value="2" id="star-2" /> 
@@ -181,9 +207,32 @@
           <input type="radio" name="star2"  class="startr" value="5" id="star-5" /> 
         </div>
     </a>
+    <!-- **************for udemy ************************* -->
+
+<div class="modal fade" id="udemy-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+      <div class="modal-dialog modal-css-subcat">
+          <div class="loginmodal-container">
+              <div class="btn-topcat">
+                <button class="btn btn-primary button-topcat video">Video</button>
+                <button class="btn btn-success button-topcat about">About</button>
+              </div>
+              <div class="video-subcat">
+                   <iframe width="100%" height="60%" src="https://www.youtube.com/embed/9xK5zRXIFLo" frameborder="0" allowfullscreen></iframe>
+              </div>
+              <div class="info-subcat" style="display:none;">
+               <p>
+Udemy.com is an online learning platform. It is aimed at professional adults who want to add new skills to their resumes, or explore their passions. Unlike academic MOOC programs driven by traditional collegiate coursework, Udemy provides a platform for experts of any kind to create courses which can be offered to the public, either at no charge or for a tuition fee. Udemy provides tools which enable users to create a course, promote it and earn money from student tuition charges.
+No Udemy courses are currently credentialed for college credit; students take courses largely as a means of improving job-related skills. Some courses generate credit toward technical certification. Udemy has made a special effort to attract corporate trainers seeking to create coursework for employees of their company.
+               </p>
+              </div>
+        </div>
+      </div>
+</div>
+<!-- **************for udemy ************************* -->
+
     </div>
     <div class="pro1" id="p3">
-    <a href="#" class="list-group-item make1" ><span id="s2">JAVATPOINT</span>
+    <a href="#" class="list-group-item make1" data-toggle="modal" data-target="#codecademy-modal"><span id="s2">CODECADEMY</span>
 
             <div class="stars" data-id="3">
           <input type="radio" name="star3" class="startr" value="1" id="star-1" />  
@@ -193,9 +242,32 @@
           <input type="radio" name="star3"  class="startr" value="5" id="star-5" /> 
         </div>
     </a>
+        <!-- **************for codecademy ************************* -->
+
+<div class="modal fade" id="codecademy-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+      <div class="modal-dialog modal-css-subcat">
+          <div class="loginmodal-container">
+              <div class="btn-topcat">
+                <button class="btn btn-primary button-topcat video">Video</button>
+                <button class="btn btn-success button-topcat about">About</button>
+              </div>
+              <div class="video-subcat">
+                   <iframe width="100%" height="60%" src="https://www.youtube.com/embed/6d_4sd_l7rQ" frameborder="0" allowfullscreen></iframe>
+              </div>
+              <div class="info-subcat" style="display:none;">
+               <p>
+Codecademy is an online interactive platform that offers free coding classes in 12 different programming languages including Python, Java, PHP, JavaScript (jQuery, AngularJS, React.js), Ruby, SQL, and Sass, as well as markup languages HTML and CSS. The site also offers a paid "pro" option that gives users access to a personalized learning plan, quizzes, realistic projects, and live help from advisors.
+               </p>
+              </div>
+        </div>
+      </div>
+</div>
+<!-- **************for codecademy ************************* -->
+
+
     </div>
     <div class="pro1" id="p4">
-    <a href="#" class="list-group-item make1" id="a4"><span id="s3">W3SCHOOLS</span>
+    <a href="#" class="list-group-item make1" id="a4" data-toggle="modal" data-target="#w3schools-modal"><span id="s3">W3SCHOOLS</span>
 
             <div class="stars" data-id="4">
           <input type="radio" name="star4" class="startr" value="1" id="star-1" />  
@@ -205,6 +277,29 @@
           <input type="radio" name="star4"  class="startr" value="5" id="star-5" /> 
         </div>
     </a>
+    <!-- **************for w3schools ************************* -->
+
+<div class="modal fade" id="w3schools-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+      <div class="modal-dialog modal-css-subcat">
+          <div class="loginmodal-container">
+              <div class="btn-topcat">
+                <button class="btn btn-primary button-topcat video">Video</button>
+                <button class="btn btn-success button-topcat about">About</button>
+              </div>
+              <div class="video-subcat">
+                   <iframe width="100%" height="60%" src="https://www.youtube.com/embed/LCazeH934fA" frameborder="0" allowfullscreen></iframe>
+              </div>
+              <div class="info-subcat" style="display:none;">
+               <p>
+W3Schools is a popular web site for learning web technologies online. Content includes tutorials and references relating to HTML, CSS, JavaScript, PHP, SQL, Bootstrap, and jQuery. It receives more than 10 million unique visitors monthly.
+Created in 1998, its name is derived from the World Wide Web, but is not affiliated with the W3C (World Wide Web Consortium). It is run by Refsnes Data in Norway. W3Schools presents thousands of code examples. By using an online editor, readers can edit examples and execute the code in a sandbox.
+               </p>
+              </div>
+        </div>
+      </div>
+</div>
+<!-- **************for w3schools************************* -->
+
     </div>
   </div>
 <button class="btn btn-success btn1" id="btn-rating">Submit Rating!</button>
@@ -227,6 +322,25 @@
 <div class="footer">
 Designed & Developed By : Sonal , Rahul & Kunal     
 </div>
+<script type="text/javascript">
+  jQuery(document).ready(function($){
+
+    $(".video").click(function(){
+         
+
+         $('.info-subcat').fadeOut('fast', function(){
+            $('.video-subcat').fadeIn('fast');
+        });
+    });
+
+    $(".about").click(function(){
+         $('.video-subcat').fadeOut('fast', function(){
+            $('.info-subcat').fadeIn('fast');
+        });
+      
+    });
+});
+</script>
 
 <script>
      $(document).ready(function(){
